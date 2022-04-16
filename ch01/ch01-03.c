@@ -1,6 +1,10 @@
 //https://github.com/ArtemNikolaev/c_programming_language/issues/3
 #include <stdio.h>
 
+#define LOWER 0
+#define MAX 300
+#define STEP 20
+
 int main() {
     int fahr;
     float celsius;
@@ -9,7 +13,7 @@ int main() {
     printf("│fahr│celsius│\n");
     printf("├────┼───────┤\n");
 
-    for (fahr = 0; fahr <= 300; fahr += 20) {
+    for (fahr = LOWER; fahr <= MAX; fahr += STEP) {
         celsius = (5.0/9.0) * (fahr - 32.0);
         printf("│%4d│%7.1f│\n", fahr, celsius);
     }
