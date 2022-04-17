@@ -1,4 +1,4 @@
-//https://github.com/ArtemNikolaev/c_programming_language/issues/3
+//https://github.com/ArtemNikolaev/c_programming_language/issues/5
 #include <stdio.h>
 
 #define LOWER 0
